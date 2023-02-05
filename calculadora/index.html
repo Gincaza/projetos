@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+      /* Estilo da calculadora */
+      .calculator {
+        width: 400px;
+        height: 500px;
+        margin: 100px auto;
+        background-color: #333;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+          0 6px 6px rgba(0, 0, 0, 0.23);
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Estilo da saída */
+      .output {
+        background-color: #fff;
+        height: 80px;
+        padding: 20px;
+        font-size: 36px;
+        text-align: right;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+      }
+
+      /* Estilo dos botões */
+      .key {
+        width: 25%;
+        height: 80px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 0;
+        font-size: 24px;
+        text-align: center;
+        line-height: 80px;
+        cursor: pointer;
+      }
+
+      /* Estilo dos botões de operação */
+      .operator {
+        background-color: #f2f2f2;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="output">0</div>
+      <div class="key operator">x</div>
+      <div class="key operator">+</div>
+      <div class="key operator">-</div>
+      <div class="key">1</div>
+      <div class="key">2</div>
+      <div class="key">3</div>
+      <div class="key">4</div>
+      <div class="key">5</div>
+      <div class="key">6</div>
+      <div class="key">7</div>
+      <div class="key">8</div>
+      <div class="key">9</div>
+      <div class="key">0</div>
+      <div class="key">.</div>
+      <div class="key">C</div>
+      <div class="key operator">/</div>
+    </div>
+      <script src="java.js"></script>
+</body>
+</html>
